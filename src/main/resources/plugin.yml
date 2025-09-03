@@ -1,0 +1,17 @@
+name: Homes
+version: ${project.version}
+main: com.example.homes.HomePlugin
+api-version: 1.21
+commands:
+  sethome:
+    description: Set a home location
+    usage: /sethome [name]
+  home:
+    description: Teleport to a home
+    usage: /home [name]
+  deletehome:
+    description: Delete a home
+    usage: /deletehome [name]
+  listhomes:
+    description: List your homes
+    usage: /listhomes
